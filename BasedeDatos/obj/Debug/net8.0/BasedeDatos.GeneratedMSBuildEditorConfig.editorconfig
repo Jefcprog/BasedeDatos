@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BasedeDatos
+build_property.RootNamespace = BasedeDatos
+build_property.ProjectDir = C:\Users\USUARIO\source\repos\BasedeDatos\BasedeDatos\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USUARIO\source\repos\BasedeDatos\BasedeDatos
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Mysql/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlzcWxcRmlsdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Mysql/FilterResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlzcWxcRmlsdGVyUmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Mysql/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlzcWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/OracleXe/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JhY2xlWGVcRmlsdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/OracleXe/FilterResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JhY2xlWGVcRmlsdGVyUmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/OracleXe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JhY2xlWGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/PostgreSql/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGdyZVNxbFxGaWx0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/PostgreSql/FilterResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGdyZVNxbFxGaWx0ZXJSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/PostgreSql/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdGdyZVNxbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/SqlServer/Filter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsU2VydmVyXEZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/SqlServer/FilterResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsU2VydmVyXEZpbHRlclJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/SqlServer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsU2VydmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/source/repos/BasedeDatos/BasedeDatos/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hys9hvh70w

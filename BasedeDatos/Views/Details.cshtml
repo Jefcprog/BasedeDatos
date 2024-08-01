@@ -1,0 +1,19 @@
+﻿@model BasedeDatos.DTOs.ProvinciaDto
+
+<h2>Detalles de Provincia</h2>
+
+<div>
+    <h4>Provincia</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Nombre de la Provincia</dt>
+        <dd class="col-sm-10">@Model.Provincia</dd>
+        <dt class="col-sm-2">Región</dt>
+        <dd class="col-sm-10">@Model.Region</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id_Provincia" class="btn btn-primary">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary">Regresar a la lista</a>
+</div>

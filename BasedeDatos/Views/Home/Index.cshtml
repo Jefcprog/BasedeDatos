@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Seleccionar Motor de Base de Datos";
+}
+
+<style>
+    .db-option {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .db-logo {
+        width: 150px;
+        max-width: 150px; /* Ajusta el tamaño máximo según sea necesario */
+        filter: grayscale(100%);
+        transition: transform 0.3s, filter 0.3s;
+    }
+
+        .db-logo:hover {
+            filter: grayscale(0%);
+            transform: scale(1.1);
+        }
+
+    .db-option h3 {
+        margin-top: 10px;
+        font-size: 1.2em;
+        color: #333;
+    }
+</style>
+
+<div class="container">
+    <h2>Seleccionar Motor de Base de Datos</h2>
+    <div class="row">
+        <div class="col-md-3 db-option">
+            <a href="@Url.Action("Index", "Mysql")">
+                <img src="~/images/mysql-logo.png" alt="MySQL Logo" class="db-logo" />
+                <h3>MySQL</h3>
+            </a>
+        </div>
+        <div class="col-md-3 db-option">
+            <a href="@Url.Action("Index", "SqlServer")">
+                <img src="~/images/sqlserver-logo.png" alt="SQL Server Logo" class="db-logo" />
+                <h3>SQL Server</h3>
+            </a>
+        </div>
+        <div class="col-md-3 db-option">
+            <a href="@Url.Action("Index", "Postgresql")">
+                <img src="~/images/postgresql-logo.png" alt="PostgreSQL Logo" class="db-logo" />
+                <h3>PostgreSQL</h3>
+            </a>
+        </div>
+        <div class="col-md-3 db-option">
+            <a href="@Url.Action("Index", "Oraclexe")">
+                <img src="~/images/oraclexe-logo.png" alt="Oracle XE Logo" class="db-logo" />
+                <h3>Oracle XE</h3>
+            </a>
+        </div>
+    </div>
+</div>

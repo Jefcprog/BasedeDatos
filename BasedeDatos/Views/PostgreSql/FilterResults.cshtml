@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Resultados del Filtro";
+}
+
+<div class="container">
+    <h2>Resultados del Filtro</h2>
+    @if (ViewBag.FilterResults != null && ViewBag.FilterResults.Count > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    @foreach (var key in ((Dictionary<string, object>)ViewBag.FilterResults[0]).Keys)
+                    {
+                        <th>@key</th>
+                    }
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Dictionary<string, object> row in ViewBag.FilterResults)
+                {
+                    <tr>
+                        @foreach (var value in row.Values)
+                        {
+                            <td>@value</td>
+                        }
+                        <td>
+                            <!-- Aquí puedes agregar botones de acción si es necesario -->
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No se encontraron resultados.</p>
+    }
+</div>

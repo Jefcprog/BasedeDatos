@@ -1,0 +1,105 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.col-md-3 {
+    max-width: 25%;
+}
+
+.col-md-9 {
+    max-width: 75%;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.form-agregar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#agregar-cantones input[type="text"],
+#agregar-cantones input[type="number"],
+#agregar-parroquias input[type="text"],
+#agregar-parroquias input[type="number"] {
+    width: 100%;
+    padding: 10px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+}
+
+.input-group .form-control {
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+.input-group .input-group-append {
+    flex: 0 0 auto;
+}
+
+/* Ajustar la posición de las imágenes */
+.db-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -10px;
+    text-align: center;
+}
+
+.db-logo {
+    margin-top: 100px; /* Ajustar para controlar la distancia desde la parte superior */
+    width: 200px; /* Ajustar el tamaño de las imágenes */
+    height: 200px; /* Asegurar que todas las imágenes tengan el mismo tamaño */
+    margin-left: auto;
+}

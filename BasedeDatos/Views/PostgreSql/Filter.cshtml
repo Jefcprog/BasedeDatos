@@ -1,0 +1,92 @@
+﻿@{
+    ViewBag.Title = "Filtrar";
+}
+
+<h2>Filtrar</h2>
+
+<form method="post" asp-action="ExecuteFilter">
+    <div class="form-group">
+        <label for="combination">Combinación</label>
+        <select class="form-control" id="combination" name="combination">
+            @foreach (var combination in ViewBag.Combinations)
+            {
+                <option value="@combination">@combination</option>
+            }
+        </select>
+    </div>
+    <button type="button" class="btn btn-primary" onclick="loadFields()">Cargar</button>
+
+    <div id="filter-fields" style="display:none;">
+        <div class="form-group" data-field="Provincias-Cantones Provincias-Parroquias Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="nombresProvincias">Nombre Provincia</label>
+            <input type="text" class="form-control" id="nombresProvincias" name="nombresProvincias">
+        </div>
+        <div class="form-group" data-field="Provincias-Cantones Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="nombresCantones">Nombre Cantón</label>
+            <input type="text" class="form-control" id="nombresCantones" name="nombresCantones">
+        </div>
+        <div class="form-group" data-field="Provincias-Parroquias Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="nombresParroquias">Nombre Parroquia</label>
+            <input type="text" class="form-control" id="nombresParroquias" name="nombresParroquias">
+        </div>
+        <div class="form-group" data-field="Provincias-Cantones Provincias-Parroquias Provincias-Cantones-Parroquias">
+            <label for="IdProvs">ID Provincia</label>
+            <input type="text" class="form-control" id="IdProvs" name="IdProvs">
+        </div>
+        <div class="form-group" data-field="Provincias-Cantones Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="IdCans">ID Cantón</label>
+            <input type="text" class="form-control" id="IdCans" name="IdCans">
+        </div>
+        <div class="form-group" data-field="Provincias-Parroquias Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="IdPars">ID Parroquia</label>
+            <input type="text" class="form-control" id="IdPars" name="IdPars">
+        </div>
+        <div class="form-group" data-field="Provincias-Cantones Provincias-Parroquias Cantones-Parroquias Provincias-Cantones-Parroquias">
+            <label for="regiones">Región</label>
+            <input type="text" class="form-control" id="regiones" name="regiones">
+        </div>
+        <button type="submit" class="btn btn-primary">Filtrar</button>
+    </div>
+</form>
+
+<script>
+    function loadFields() {
+        var combination = document.getElementById("combination").value;
+        var fields = document.querySelectorAll("#filter-fields .form-group");
+
+        fields.forEach(function (field) {
+            if (field.getAttribute("data-field").includes(combination)) {
+                field.style.display = "block";
+            } else {
+                field.style.display = "none";
+            }
+        });
+
+        document.getElementById("filter-fields").style.display = "block";
+    }
+</script>
+
+@if (ViewBag.FilterResult != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                @foreach (var key in ViewBag.FilterResult.First().Keys)
+                {
+                    <th>@key</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in ViewBag.FilterResult)
+            {
+                <tr>
+                    @foreach (var value in row.Values)
+                    {
+                        <td>@value</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
